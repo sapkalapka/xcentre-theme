@@ -3,28 +3,16 @@
     "1649067947fa15d31c": {
       "type": "image-banner",
       "blocks": {
-        "967ef93e-65f2-4888-9758-4bd860dd2636": {
+        "dbc92dcd-a6ec-4ab1-b11a-92ec5d242043": {
           "type": "text",
           "settings": {
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce luctus sit amet arcu ac accumsan. Integer at nisl enim. Maecenas faucibus aliquet turpis, in iaculis metus vestibulum vitae.",
             "text_style": "body"
-          }
-        },
-        "0e03fe73-c817-471f-858b-6e06a985d3bc": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Megveszem",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "967ef93e-65f2-4888-9758-4bd860dd2636",
-        "0e03fe73-c817-471f-858b-6e06a985d3bc"
+        "dbc92dcd-a6ec-4ab1-b11a-92ec5d242043"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/macbook-air-on-desk.jpg",
@@ -46,8 +34,8 @@
         "164906845954cdc97a-0": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Lorem ipsum",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce luctus sit amet arcu ac accumsan. Integer at nisl enim. Maecenas faucibus aliquet turpis, in iaculis metus vestibulum vitae.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -55,8 +43,8 @@
         "164906845954cdc97a-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Lorem ipsum",
+            "text": "<p>Vivamus id lacus nec lacus posuere iaculis. Praesent at diam risus. Proin a justo ut tortor ultrices laoreet et sed velit. Vivamus elit orci, pharetra in lectus vel, semper tempor nibh. Curabitur non pellentesque ex, fringilla auctor augue.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -64,8 +52,8 @@
         "164906845954cdc97a-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Lorem ipsum",
+            "text": "<p>Nam hendrerit tortor quis ante pretium condimentum. Nullam quis ligula id est congue ultricies. Sed quis risus eu velit imperdiet efficitur quis vitae leo. Etiam justo libero, lacinia nec accumsan sed, ultricies in enim. Interdum et malesuada fames ac ante ipsum primis in faucibus.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -77,14 +65,14 @@
         "164906845954cdc97a-2"
       ],
       "settings": {
-        "title": "Multicolumn",
-        "heading_size": "h1",
+        "title": "Érdekességek",
+        "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
@@ -92,10 +80,51 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "16490751309813471c": {
+      "type": "collage",
+      "blocks": {
+        "1649075130195be275-1": {
+          "type": "product",
+          "settings": {
+            "product": "navy-sport-jacket",
+            "second_image": false
+          }
+        },
+        "4d35d53a-c113-43e4-aa13-ca12454202f8": {
+          "type": "product",
+          "settings": {
+            "product": "chequered-red-shirt",
+            "second_image": false
+          }
+        },
+        "f7243d54-ba01-491b-918c-7d5961689712": {
+          "type": "product",
+          "settings": {
+            "product": "dark-denim-top",
+            "second_image": false
+          }
+        }
+      },
+      "block_order": [
+        "1649075130195be275-1",
+        "4d35d53a-c113-43e4-aa13-ca12454202f8",
+        "f7243d54-ba01-491b-918c-7d5961689712"
+      ],
+      "settings": {
+        "heading": "Szuper-termékek",
+        "heading_size": "h2",
+        "desktop_layout": "right",
+        "mobile_layout": "column",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "1649067947fa15d31c",
-    "164906845909089860"
+    "164906845909089860",
+    "16490751309813471c"
   ]
 }
